@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="water.css">
+    <link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Coiny|Lato|ZCOOL+KuaiLe" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <div class="top">
+
+  <a id="welcome"> &nbsp &nbsp  &nbsp Molarity!</a>
+  <div class="topnav">
+
+  </div>
+</div>
+<div class="molarity">
+
+
+<h1> &nbsp &nbsp what is molarity?</h1>
+<h3>  &nbsp &nbsp Hover over the image below:</h3>
+</div>
+
+
+
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="solution.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <p> molarity indicates the no of moles of solute per liter of solution</p>
+    </div>
+  </div>
+</div>
+<br>
+<video class="center" width="400" controls>
+  <source src="finding.mp4" type="video/mp4">
+
+</video>
+<div class="bac">
+
+</div>
+<div class="cup">
+
+</div>
+
+<script type="text/javascript">
+function getcube(){
+var solute=document.getElementById("solute").value;
+var solvent=document.getElementById("solvent").value;
+
+
+document.getElementById("demo").innerHTML ="Molarity of the given solution is:"+ solute/((solute+solvent)*22.4);
+}
+</script>
+<div class="calculate">
+
+<div class="calpadd">
+
+
+<form>
+  <br>
+amount of solute (in moles) : &nbsp <input type="text" id="solute" name="solute"/><br/>
+amount of solvent(in moles) : &nbsp  <input type="text" id="solvent" name="solvent"/><br/>
+<input type="button" value="Get molariy" onclick="getcube()" onclick="molariy()"/>
+</form>
+<p></p>
+<p id="demo"></p>
+
+</div>
+</div>
+  </body>
+
+</html>

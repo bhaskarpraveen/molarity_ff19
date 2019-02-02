@@ -1,0 +1,27 @@
+body{
+  background-color: #DAE6E5;
+}
+.loginpage{
+  background-color: #DAE6E5;
+  padding-bottom: 250px;
+}
+ .login{
+
+  width:300px;
+  margin: auto;
+  border: 30px solid white;
+  background-color: white;
+  text-align: center;
+}
+.login h{
+  font-size: 50px;
+}
+#sub{
+  background-color: #4191d8;
+  height:40px;
+  width:100px;
+  margin:4px;
+  margin-top: 12px;
+  font-size: 1em;
+
+}
